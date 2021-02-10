@@ -1,5 +1,9 @@
-.containercolor{
-    width:auto;
-    height:auto;
-    
+.align-paragraph-1{
+    width: 75%;
+    height:auto; 
+    background-color: white;
+}
+
+.style-nav{
+    width: 100%;
 }
