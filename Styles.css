@@ -1,9 +1,47 @@
+
 .align-paragraph-1{
     width: 75%;
     height:auto; 
-    background-color: white;
+    color:white;
 }
 
 .style-nav{
     width: 100%;
+}
+
+.fm-slogan{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.bg-banner{
+    background-image: url(img/img-banner-transparent.png);
+    width:100%;
+    height:380px;
+}
+
+.row-padding{
+    padding-top: 6rem;
+}
+
+
+@media (min-width:0px) and (max-width:495px)
+{
+    .bg-banner{
+        background-image: url(img/img-banner-transparent.png);
+        width:100%;
+        height:auto;
+        
+    }
+
+    .map{
+        width: 200px;
+    }
+}
+
+@media (max-width:319px)
+{
+    .map{
+        display: none;
+    }
 }
