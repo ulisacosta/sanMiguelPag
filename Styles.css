@@ -1,8 +1,12 @@
 
+body{
+    background-color:#e2f3f1 !important; 
+}
+
 .align-paragraph-1{
     width: 75%;
     height:auto; 
-    color:black;
+    color:#00000c;
 }
 
 .style-nav{
@@ -50,4 +54,8 @@
         width: 150px;
         height: 200px;
     }
+}
+
+.font-mid{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
