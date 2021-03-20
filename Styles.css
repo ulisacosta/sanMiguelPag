@@ -59,3 +59,20 @@ body{
 .font-mid{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+/* hr {
+    clear: both;
+    color: red;
+    background-color: red;
+    height: 1px;
+    border-width: 0;
+} */
+
+.border-footer{
+    border-top:solid;
+    
+}
+
+.height-footer{
+    
+}
