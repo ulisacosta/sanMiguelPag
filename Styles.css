@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 
 body{
     background-color:#e2f3f1 !important; 
@@ -75,4 +79,60 @@ body{
 
 .font-product{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rotate-icon{
+    -webkit-animation: spin 15s linear infinite;
+    -moz-animation: spin 15s linear infinite;
+    animation: spin 15s linear infinite;
+
+}
+
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);    }
+    }
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+.rotate-icon2{
+    -webkit-animation: spin 15s linear infinite;
+    -moz-animation: spin 15s linear infinite;
+    animation: spin 15s linear infinite;
+
+}
+
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);    }
+    }
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+.juntos{
+    position: relative;
+    width: 390px;
+    
+}
+
+.juntos2{
+    position: relative;
+    width: 335px;
+    
+}
+.juntos{
+    
+    box-shadow: -1rem 5px 1rem 0rem  rgba(0, 0, 0, 0.19);
+    
+}
+
+.juntos2{
+    box-shadow: 1rem 0rem 1rem 0 rgba(0, 0, 0, 0.19);
+    
 }
