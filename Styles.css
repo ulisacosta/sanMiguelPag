@@ -117,16 +117,17 @@ body{
 
 .juntos{
     position: relative;
-    width: 390px;
+    width: 380px;
+    padding-right: 20px;
     
 }
 
-.juntos2{
+.juntos2 {
     position: relative;
     width: 335px;
     
 }
-.juntos{
+.juntos {
     
     box-shadow: -1rem 5px 1rem 0rem  rgba(0, 0, 0, 0.19);
     
